@@ -1,0 +1,189 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section-lable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.section-icon {
+    margin: 0px;
+}
+
+.section-tag {
+    font-family: "Vollkorn", serif !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    color: #E5745D !important;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.section-headline {
+    font-family: "Vollkorn", serif !important;
+    font-weight: 500 !important;
+    font-size: 50px !important;
+    color: #00413D !important;
+
+    text-align: center;
+    margin: 0px !important;
+    padding-top: 11px !important;
+    padding-bottom: 40px !important;
+}
+
+.section-text{
+    font-family: "Jost", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 26px;
+    color: #00413D !important;
+
+    width: 570px;
+    margin: 0 !important;
+
+}
+
+/* .nav-link {
+    font-family: "Jost", sans-serif ;
+    font-weight: 400 !important;
+    font-size: 18px !important;
+    line-height: 26px;
+    color: #00413D !important;
+
+    margin-right: 43px;
+    transition: 0.4s ease-in-out;
+} */
+
+/* .btn {
+    font-family: "Jost", sans-serif;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 12px;
+    color: #FFFFFF !important;
+
+    background-color: #E5745D !important;
+    padding: 21px 39px !important;
+    border: 4px solid #E5745D !important;
+    border-radius: 0 !important;
+    position: relative;
+} */
+
+.card-text.top {
+    font-family: "Vollkorn", sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: #E5745D !important;
+    text-align: left !important;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+
+
+.card-title {
+    font-family: "Vollkorn", serif !important;
+    font-weight: 500 !important;
+    font-size: 24px !important;
+    line-height: 30px;
+    color: #00413D !important;
+
+    margin: 0 !important;
+    padding-bottom: 10px;
+    text-align: left !important;
+}
+
+
+.card-text {
+    font-family: "Jost", sans-serif !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: rgba(0, 65, 61, .70) !important;
+    text-align: left !important;
+    width: 289px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+
+/* ======================================
+            TEXT BUTTON 
+====================================== */
+
+.text-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 40px;
+
+    transition: 0.4s ease-in-out;
+}
+
+.text {
+    font-family: "Jost", sans-serif !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    text-align: left !important;
+    color: #00413D !important;
+    margin: 0;
+}
+
+.fa-arrow-right-long {
+    font-size: 18px !important;
+    color: #00413D !important;
+    margin-bottom: 0px;
+    margin-left: 7px !important;
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent;
+
+    transform: translateX(0px);
+}
+
+.text-button:hover .text {
+    color: #E5745D !important; 
+}
+
+.text-button:hover .fa-arrow-right-long {
+    color: #E5745D !important;
+    margin-bottom: 0px;
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent;
+
+    transform: translateX(7px);
+}
+
+/* ======================================
+            ARROW ANIMATION
+====================================== */
+
+.fa-arrow-right-long {
+    font-size: 20px !important;
+    color: #00413D !important;
+    margin-bottom: 50px;
+
+    transform: translateX(0px);
+    transition: 0.4s ease-in-out;
+}
+
+.fa-arrow-right-long:hover {
+    color: #E5745D !important;
+
+    transform: translateX(8px);
+}
