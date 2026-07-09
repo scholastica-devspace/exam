@@ -38,6 +38,7 @@
     border: 4px solid #E5745D !important;
     border-radius: 0 !important;
     position: relative;
+    display: inline-block;
 }
 
 .btn::before {

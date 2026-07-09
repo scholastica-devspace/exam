@@ -12,6 +12,10 @@ a {
     text-decoration: none;
 }
 
+/* ======================================
+            TAG SECTION
+====================================== */
+
 .section-lable {
     display: flex;
     justify-content: center;
@@ -46,7 +50,7 @@ a {
     padding-bottom: 40px !important;
 }
 
-.section-text{
+.section-text {
     font-family: "Jost", sans-serif !important;
     font-weight: 400 !important;
     font-size: 16px !important;
@@ -57,31 +61,6 @@ a {
     margin: 0 !important;
 
 }
-
-/* .nav-link {
-    font-family: "Jost", sans-serif ;
-    font-weight: 400 !important;
-    font-size: 18px !important;
-    line-height: 26px;
-    color: #00413D !important;
-
-    margin-right: 43px;
-    transition: 0.4s ease-in-out;
-} */
-
-/* .btn {
-    font-family: "Jost", sans-serif;
-    font-weight: 500 !important;
-    font-size: 18px !important;
-    line-height: 12px;
-    color: #FFFFFF !important;
-
-    background-color: #E5745D !important;
-    padding: 21px 39px !important;
-    border: 4px solid #E5745D !important;
-    border-radius: 0 !important;
-    position: relative;
-} */
 
 .card-text.top {
     font-family: "Vollkorn", sans-serif !important;
@@ -156,7 +135,7 @@ a {
 }
 
 .text-button:hover .text {
-    color: #E5745D !important; 
+    color: #E5745D !important;
 }
 
 .text-button:hover .fa-arrow-right-long {

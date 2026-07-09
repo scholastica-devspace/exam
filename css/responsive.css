@@ -1,0 +1,270 @@
+@media (min-width : 576px) and (max-width : 767.99px) {
+
+    /* ======================================
+            TOGGLER SECTION
+    ====================================== */
+
+    .navbar-toggler {
+        border: none;
+        padding: 0;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    .navbar-toggler .fa-bars {
+        font-size: 24px;
+        color: #00413D !important;
+    }
+
+    /* ======================================
+            NAVBAR SECTION
+    ====================================== */
+
+    .navbar-brand {
+        margin: 0;
+    }
+
+    .navbar-collapse {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    .navbar-nav {
+        margin-bottom: 20px !important;
+    }
+
+    .nav-link {
+        font-size: 14px !important;
+        margin-right: 0px;
+        transition: none;
+    }
+
+    .btn {
+        font-size: 14px !important;
+        color: #FFFFFF !important;
+        padding: 15px 25px !important;
+        border: 1px solid #E5745D !important;
+    }
+
+    .btn::before {
+        inset: 3px;
+        border: 1px solid white !important;
+        transition: none;
+    }
+
+    /* ======================================
+            HERO SECTION
+    ====================================== */
+
+    .hero-content {
+        padding: 90px 0px;
+        text-align: center;
+    }
+
+    .hero-content h1 {
+        font-weight: 600 !important;
+        font-size: 80px !important;
+        line-height: 80px;
+
+        width: auto;
+    }
+
+    .hero-content p {
+        font-family: "Jost", sans-serif !important;
+        font-weight: 400 !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        color: #FFFFFF !important;
+        width: auto;
+        margin: 0 !important;
+    }
+
+    .hero-image {
+        width: 0;
+        height: 0;
+    }
+
+    /* ======================================
+            TAG SECTION
+    ====================================== */
+
+    .section-headline {
+        font-size: 40px !important;
+    }
+
+    .section-text {
+        font-size: 16px !important;
+        line-height: 22px;
+        color: #00413D !important;
+        text-align: center;
+        width: auto;
+        margin: 0 !important;
+    }
+
+    /* ======================================
+            SERVICE SECTION
+    ====================================== */
+
+    .section-service {
+        padding: 90px 0;
+    }
+
+    .section-service .card {
+        padding: 20px !important;
+        margin-bottom: 30px;
+        transition: none;
+    }
+
+    .section-service .card img {
+        max-width: 68px !important;
+    }
+
+    .section-service .card-body {
+        margin: 0px !important;
+    }
+
+    .section-service .card-title {
+        font-size: 20px !important;
+    }
+
+    .section-service .card-text {
+        font-size: 14px !important;
+    }
+
+    .section-service .fa-arrow-right-long {
+        font-size: 20px !important;
+        margin-bottom: 30px;
+
+        transform: translateX(0px);
+        transition: none;
+    }
+
+    /* ======================================
+            ABOUT ME SECTION
+    ====================================== */
+
+    .section-aboutme .section-lable {
+        justify-content: center;
+    }
+
+    .section-aboutme .section-headline {
+        text-align: center;
+        margin-bottom: 30px !important;
+    }
+
+    .align-items-center{
+        text-align: center;
+    }
+
+    .section-aboutme .btn {
+        margin-top: 30px !important;
+    }
+----------------------------------------------
+
+    .circular-progress {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin: 80px 0;
+        column-gap: 20px;
+    }
+
+    .progess-topic {
+        background-color: #FFFFFF;
+        width: auto;
+        height: auto;
+
+        padding: 50px 50px 25px;
+
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        transition: 0.4s ease-in-out;
+    }
+
+    .progess-topic:hover {
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.3);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.3);
+
+    }
+
+    .progess-topic h5 {
+        font-family: "Vollkorn", serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #00413D;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+
+        margin-top: 25px;
+    }
+
+    .circular-progress-bar {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .circular-progress-bar::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 180px;
+        height: 180px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+    }
+
+    .circular-progress-bar::after {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        width: 180px;
+        height: 180px;
+        background-color: transparent !important;
+        border-radius: 50%;
+
+    }
+
+    .circular-progress-bar:nth-child(1) {
+        background: conic-gradient(#E5745D calc(70 * 3.6deg), #C4C4C4 0deg);
+    }
+
+    .circular-progress-bar:nth-child(2) {
+        background: conic-gradient(#E5745D calc(85 * 3.6deg), #C4C4C4 0deg);
+    }
+
+    .circular-progress-bar:nth-child(3) {
+        background: conic-gradient(#E5745D calc(60 * 3.6deg), #C4C4C4 0deg);
+    }
+
+    .circular-progress-bar:nth-child(4) {
+        background: conic-gradient(#E5745D calc(40 * 3.6deg), #C4C4C4 0deg);
+    }
+
+    .circular-progress-bar span {
+        font-family: "Vollkorn", serif;
+        font-weight: 600;
+        font-size: 26px;
+        color: #E5745D;
+
+        z-index: 1;
+    }
+
+}
