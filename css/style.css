@@ -701,7 +701,7 @@ input:focus-visible {
 .section-footer {
     margin-top: 120px;
     background-color: #00413D;
-    padding: 80px 0;
+    padding-top: 80px;
 }
 
 .section-footer .container {
