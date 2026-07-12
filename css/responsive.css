@@ -1357,3 +1357,50 @@
     }
 
 }
+
+@media (min-width : 1200px) and (max-width : 1399.99px) {
+        
+    /* ======================================
+            ABOUT ME SECTION
+====================================== */
+
+    .aboutme-img {
+        width: 99%;
+    }
+
+    .section-text {
+        width: auto;
+    }
+
+    /* ======================================
+            PROJECTS SECTION
+====================================== */
+
+    .section-projects .btn {
+        display: inline-block;
+        margin: 60px 460px;
+    }
+
+    .section-projects .card-text {
+        width: auto;
+
+    }
+
+    /* ======================================
+            PORTFOLIO SECTION
+    ====================================== */
+
+    .portfolio-img {
+        width: auto;
+        height: auto;
+    }
+
+    .portfolio-title {
+        width: auto;
+        padding: 22px 216px;
+        padding-left: 18px;
+        margin: 0;
+    }
+
+}
+
