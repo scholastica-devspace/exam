@@ -78,6 +78,9 @@
         margin-right: 0px;
         transition: none;
     }
+     .nav-link:hover {
+        color: #00413D !important;
+    }
 
     .btn {
         font-size: 14px !important;
@@ -1485,6 +1488,10 @@
         transition: none;
     }
 
+    .nav-link:hover {
+        color: #00413D !important;
+    }
+
     .btn {
         font-size: 14px !important;
         color: #FFFFFF !important;
@@ -1501,9 +1508,10 @@
     /* ======================================
             HERO SECTION
     ====================================== */
-.section-hero .row{
-    margin: 0;
-}
+    .section-hero .row {
+        margin: 0;
+    }
+
     .hero-content {
         padding: 90px 10px;
         text-align: center;
@@ -1886,7 +1894,7 @@
 
     .section-footer .ul-set li {
         margin-top: 20px;
-        padding:3px;
+        padding: 3px;
         border-right: none;
 
         font-size: 12px !important;
@@ -1920,9 +1928,9 @@
     }
 
     .copyright {
-            font-size: 10px !important;
-margin: 0 !important;
-margin-bottom: 30px !important;
+        font-size: 10px !important;
+        margin: 0 !important;
+        margin-bottom: 30px !important;
         padding: 0;
     }
 }
