@@ -76,7 +76,7 @@
     .nav-link {
         font-size: 14px !important;
         margin-right: 0px;
-        transition: none;
+        transition: 0.4s ease-in-out;
     }
      .nav-link:hover {
         color: #00413D !important;
@@ -1485,7 +1485,7 @@
     .nav-link {
         font-size: 14px !important;
         margin-right: 0px;
-        transition: none;
+        transition: 0.4s ease-in-out;
     }
 
     .nav-link:hover {
