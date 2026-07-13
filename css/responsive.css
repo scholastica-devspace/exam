@@ -78,7 +78,8 @@
         margin-right: 0px;
         transition: 0.4s ease-in-out;
     }
-     .nav-link:hover {
+
+    .nav-link:hover {
         color: #00413D !important;
     }
 
@@ -1431,12 +1432,23 @@
     ====================================== */
 
     .text-button {
-        transition: none;
+        transition: 0.4s ease-in-out;
+    }
+
+    .text-button:hover .text {
+        color: #00413D !important;
+    }
+
+    .text-button:hover .fa-arrow-right-long {
+        color: #00413D !important;
+
+        transform: translateX(0px);
     }
 
     .text {
         font-size: 14px !important;
     }
+
 
     /* ======================================
             ARROW ANIMATION
@@ -1444,7 +1456,14 @@
 
     .fa-arrow-right-long {
         font-size: 14px !important;
-        transition: none;
+        transform: translateX(0px);
+        transition: 0.4s ease-in-out;
+    }
+
+    .fa-arrow-right-long:hover {
+        color: #00413D !important;
+
+        transform: translateX(0px);
     }
 
     /* ======================================
@@ -1547,8 +1566,13 @@
     .section-service .card {
         padding: 10px !important;
         margin-bottom: 30px;
-        transition: none;
+        transition: 0.4s ease-in-out;
         box-shadow: none;
+    }
+
+    .section-service .card:hover {
+        box-shadow: none;
+
     }
 
     .section-service .card img {
@@ -1573,7 +1597,13 @@
         margin-bottom: 10px;
 
         transform: translateX(0px);
-        transition: none;
+        transition: 0.4s ease-in-out;
+    }
+
+    .section-service .fa-arrow-right-long:hover {
+        color: #00413D !important;
+
+        transform: translateX(0px);
     }
 
     /* ======================================
@@ -1613,8 +1643,13 @@
         width: auto;
         height: auto;
         padding: 15px 20px;
-        transition: none;
+        transition: 0.4s ease-in-out;
         margin-top: 30px;
+    }
+
+    .progess-topic:hover {
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
     }
 
     .progess-topic h5 {
@@ -1643,7 +1678,16 @@
     }
 
     .section-projects .card-body {
-        transition: none;
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+
+        transition: 0.4s ease-in-out;
+        padding: 0 30px !important;
+    }
+
+    .section-projects .card-body:hover {
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
     }
 
     .section-projects .card-text.top {
@@ -1675,10 +1719,7 @@
         border: none;
     }
 
-    .section-projects .card-body {
 
-        padding: 0 30px !important;
-    }
 
     /* ======================================
             PORTFOLIO SECTION
@@ -1703,7 +1744,11 @@
     }
 
     .section-portfolio .ul-set li::before {
-        transition: none;
+        transition: 0.4s ease-in-out;
+    }
+
+    .section-portfolio .ul-set li:hover::before {
+        width: 0;
     }
 
     .portfolio {
@@ -1713,7 +1758,11 @@
         justify-content: center;
         align-items: center;
 
-        transition: none;
+        transition: 0.4s ease-in-out;
+    }
+
+    .portfolio:hover .portfolio-title {
+        background-color: #00413D;
     }
 
     .portfolio-img {
@@ -1864,6 +1913,15 @@
         padding-left: 30px !important;
         box-shadow: none;
         transition: none;
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+
+        transition: 0.4s ease-in-out;
+    }
+
+    .section-blog .card-body:hover {
+        -webkit-box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
+        box-shadow: 8px 8px 9px -2px rgba(0, 0, 0, 0.1);
     }
 
     /* ======================================
@@ -1899,8 +1957,6 @@
 
         font-size: 12px !important;
     }
-
-
 
     .footer-icons {
         display: flex;
